@@ -1,4 +1,4 @@
-package dev.spring.boot.simple.DAO;
+package dev.spring.boot.simple.domain;
 
 import java.util.List;
 
