@@ -1,4 +1,4 @@
-package dev.spring.boot.simple.config;
+package dev.spring.boot.simple.controller;
 
 
 import org.springframework.stereotype.Controller;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 
 @Controller
-public class ConfiguracaoSpringMVC{
+public class HomeController{
 
     @RequestMapping({"", "/", "index.html"})
     public ModelAndView index(){
